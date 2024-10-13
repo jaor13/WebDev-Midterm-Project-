@@ -13,3 +13,7 @@ Route::get('/narrative1', function () {
 Route::get('/narrative2', function () {
     return view('narrative2');
 })->name('narrative2');
+
+Route::get('/narrative3', function () {
+    return view('narrative3');
+})->name('narrative3');

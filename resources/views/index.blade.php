@@ -112,9 +112,6 @@
                     <div class="portfolio-links">
                       <a href="{{ route('narrative1') }}" title="View Documentation"><i class="fas fa-link"></i></a>
                     </div>
-                    <div class="portfolio-info">
-                      <h4>Task was to create a laravel project and use routing concepts in the web.php</h4>
-                    </div>
                   </div>
                 </div>
 
@@ -124,9 +121,6 @@
                     <div class="portfolio-links">
                       <a href="{{ route('narrative2') }}" title="View Documentation"><i class="fas fa-link"></i></a>
                     </div>
-                    <div class="portfolio-info">
-                      <h4>Task was to utilize blade directives and layout file across the views</h4>
-                    </div>
                   </div>
                 </div>
 
@@ -134,10 +128,7 @@
                   <div class="portfolio-wrap">
                     <img src="{{ asset('asset/images/lb4.svg') }}" class="img-fluid" alt="">
                     <div class="portfolio-links">
-                      <a href="#" title="View Documentation"><i class="fas fa-link"></i></a>
-                    </div>
-                    <div class="portfolio-info">
-                      <h4>Task was to apply middleware on the lab exercises</h4>
+                      <a href="{{ route('narrative3') }}" title="View Documentation"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
@@ -147,9 +138,6 @@
                     <img src="{{ asset('asset/images/lb1.svg') }}" class="img-fluid" alt="">
                     <div class="portfolio-links">
                       <a href="#" title="View Documentation"><i class="fas fa-link"></i></a>
-                    </div>
-                    <div class="portfolio-info">
-                      <h4>Task was to create a simple laravel project with at least 3 views</h4>
                     </div>
                   </div>
                 </div>
