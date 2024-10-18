@@ -6,7 +6,7 @@
     <section id="narrative" class="narrative">
         <div class="container">
             <div class="section-title" data-aos="fade-up">
-                <h2 class="mt-5">Group Laboratory 1:</h2>
+                <h1 class="mt-5">Group Laboratory 1:</h1>
                 <p>Applying Routing Concepts on a Laravel Project</p>
             </div>
             <div class="row">
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify"><br>In our laravel project, my groupmates and I decided to utilize my fist individual laboratory as a basis for this group lab. As seen in the photo above, it has 5 views.<br><br></p>
+                    <p class="text-justify"><br>In this laravel project, my groupmates and I decided to utilize my fist individual laboratory as a basis for this group lab. As seen in the photo above, it has 5 views.<br><br></p>
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center" data-aos="zoom-in" data-aos-delay="100">
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify"><br>Continuing, I defined a route for the homepage using Route::get('/'). This route returns the view index, which serves as the main homepage content. Additionally, I assigned a name to the route using ->name('homepage'), allowing me to reference this route elsewhere in the application more easily (I used this named routes in nav reference links in the navbar). This setup simplifies future modifications, as I can use the route name instead of the URL path directly.</p>
+                    <p class="text-justify"><br>Continuing, I defined a route for the homepage using <code>Route::get('/').</code> This route returns the view index, which serves as the main homepage content. Additionally, I assigned a name to the route using <code>->name('homepage')</code>, allowing me to reference this route elsewhere in the application more easily (I used this named routes in nav reference links in the navbar). This setup simplifies future modifications, as I can use the route name instead of the URL path directly.</p>
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center" data-aos="zoom-in" data-aos-delay="100">
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify"><br>I also set up a redirect route using Route::redirect('/home', destination: '/') to handle the redirection from /home to the homepage (/). Since the homepage route is named homepage, this ensures that any visits to /home are automatically redirected to the main index page.</p>
+                    <p class="text-justify"><br>I also set up a redirect route using <code>Route::redirect('/home', destination: '/')</code> to handle the redirection from /home to the homepage (/). Since the homepage route is named homepage, this ensures that any visits to /home are automatically redirected to the main index page.</p>
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center" data-aos="zoom-in" data-aos-delay="100">
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 align-items-stretch custom-font" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify"></p>I also grouped several routes using Route::group(['prefix' => 'pages']), which organizes them under a common URL prefix, "pages." This structure includes the following named routes:
+                    <p class="text-justify"></p>I also grouped several routes using <code>Route::group(['prefix' => 'pages'])</code>, which organizes them under a common URL prefix, "pages." This structure includes the following named routes:
                         <br><br>
                         <ul>
                             <li>/pages/about returns the "about" view (->name('about')).</li>
@@ -67,12 +67,11 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify"><br>Moreover, I defined a route with regular constraints using Route::get('/user/{username?}') that includes an optional username parameter. Within this route, I implemented a check using a regular expression to ensure the username contains only alphabetic characters. If the username is invalid, it defaults to "Guest." The route then passes the validated $username variable to the index view, allowing for a personalized greeting based on the provided username or a generic welcome for guests.
+                    <p class="text-justify"><br>Moreover, I defined a route with regular constraints using <code>Route::get('/user/{username?}')</code> that includes an optional username parameter. Within this route, I implemented a check using a regular expression to ensure the username contains only alphabetic characters. If the username is invalid, it defaults to "Guest." The route then passes the validated $username variable to the index view, allowing for a personalized greeting based on the provided username or a generic welcome for guests.
                     </p>
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify">In Group Laboratory 1, the tasks are divided into two main parts: defining basic routes and working with route parameters.<br><br>
                     <b>Rendered Page:</b><br><br>
                     </p>
                 </div>

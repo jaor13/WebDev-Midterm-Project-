@@ -201,7 +201,7 @@ body {
     padding-bottom: 30px;
   }
   
-  .section-title h2 {
+  .section-title h2, .section-title h1 {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 0;

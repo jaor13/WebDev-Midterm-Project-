@@ -6,7 +6,7 @@
     <section id="narrative" class="narrative">
         <div class="container">
             <div class="section-title" data-aos="fade-up">
-                <h2 class="mt-5">Group Laboratory 3:</h2>
+                <h1 class="mt-5">Group Laboratory 3:</h1>
                 <p>Applying Middleware on a Laravel Project</p>
             </div>
             <div class="row">

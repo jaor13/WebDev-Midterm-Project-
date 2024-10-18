@@ -6,7 +6,7 @@
     <section id="narrative" class="narrative">
         <div class="container">
             <div class="section-title" data-aos="fade-up">
-                <h2 class="mt-5">Group Laboratory 2:</h2>
+                <h1 class="mt-5">Group Laboratory 2:</h1>
                 <p>Applying Layout File on a Laravel Project</p>
             </div>
             <div class="row">
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <p class="text-justify"><br>We created a layout file within the components folder that serves as the foundation for all pages. The file sets up the HTML structure, including a Bootstrap-based navbar in the header and a footer.<br><br> Additionaly, we used @@yield blade directives for sections like the title, jumbotron, and content, allowing different views to inject their unique content while maintaining a consistent layout across the site. We also added a script to hide the navbar when scrolling down, enhancing the user experience with smooth navigation. This layout file ensures reusability and a clean, organized structure for the entire application. 
+                    <p class="text-justify"><br>We created a layout file within the components folder that serves as the foundation for all pages. The file sets up the HTML structure, including a Bootstrap-based navbar in the header and a footer.<br><br> Additionaly, we used <code>@@yield</code> blade directives for sections like the title, jumbotron, and content, allowing different views to inject their unique content while maintaining a consistent layout across the site. We also added a script to hide the navbar when scrolling down, enhancing the user experience with smooth navigation. This layout file ensures reusability and a clean, organized structure for the entire application. 
                     </p>
                 </div>
 
@@ -40,7 +40,7 @@
                 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <p class="text-justify">
-                        <br>The home view extends the layout using @@extends('Components.layout'), inheriting the common structure like the header, footer, and script. The title is dynamically set with @@section('title', 'CNW | Home'). @@section('jumbotron') and @@section('content') inject specific content into the jumbotron and main content areas of the layout. The @@endsection directive marks the end of each content section, ensuring it is correctly placed within the layout.
+                        <br>The home view extends the layout using <code>@@extends('Components.layout')</code>, inheriting the common structure like the header, footer, and script. The title is dynamically set with <code>@@section('title', 'CNW | Home')</code>. <code>@@section('jumbotron')</code> and <code>@@section('content')</code> inject specific content into the jumbotron and main content areas of the layout. The @@endsection directive marks the end of each content section, ensuring it is correctly placed within the layout.
                     </p>
                 </div>
 
@@ -50,7 +50,7 @@
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <p class="text-justify">
-                        <br> The about.blade.php view, also, uses @@extends('Components.layout') to inherit the header, footer, and scripts from the layout. The title is set with @@section('title', 'CNW | About'), and the main content about "Crafts N' Wraps" is placed within @@section('content'). The @@endsection closes the section, ensuring the content is properly inserted into the layout's placeholders.
+                        <br> The about.blade.php view, also, uses <code>@@extends('Components.layout') </code>to inherit the header, footer, and scripts from the layout. The title is set with<code>@@section('title', 'CNW | About')</code> , and the main content about "Crafts N' Wraps" is placed within <code>@@section('content')</code>. The @@endsection closes the section, ensuring the content is properly inserted into the layout's placeholders.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <p class="text-justify">
-                        <br>Like other views, shop.blade.php extends the layout using @@extends('Components.layout'), automatically inheriting the header, footer, and scripts. The title is set with @@section('title', 'CNW | Shop'), and the shop content is defined within @@section('content'). This section displays bouquets in a card layout with images, descriptions, prices, and "Buy Now" buttons, replacing the @@yield('content') in the layout. The @@endsection marks the end of this content section.
+                        <br>Like other views, shop.blade.php extends the layout using <code>@@extends('Components.layout')</code>, automatically inheriting the header, footer, and scripts. The title is set with <code>@@section('title', 'CNW | Shop')</code>, and the shop content is defined within <code>@@section('content')</code>. This section displays bouquets in a card layout with images, descriptions, prices, and "Buy Now" buttons, replacing the <code>@@yield('content')</code> in the layout. The <code>@@endsection</code> marks the end of this content section.
                     </p>
                 </div>
 
@@ -89,7 +89,7 @@
 
                 <div class="col-md-12 col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <p class="text-justify">
-                        <br>In conclusion, this lab provided valuable insights into utilizing Blade directives to create a structured and dynamic Laravel application. By leveraging the @@extends directive, we ensured that each view inherits a consistent layout, maintaining a unified design across all pages. The use of @@section allowed us to define and inject unique content into specific areas of the layout, such as the title and main content sections, enhancing flexibility and reusability.
+                        <br>In conclusion, this lab provided valuable insights into utilizing Blade directives to create a structured and dynamic Laravel application. By leveraging the <code>@@extends</code>  directive, we ensured that each view inherits a consistent layout, maintaining a unified design across all pages. The use of @@section allowed us to define and inject unique content into specific areas of the layout, such as the title and main content sections, enhancing flexibility and reusability.
                         <br><br>We also explored the simplicity of defining routes, which streamlined our navigation and made it easier to connect different views. The straightforward routing structure, derived from my groupmate's lab, facilitated a more efficient development process. Overall, this exercise highlighted the power of Blade templating in creating maintainable and dynamic web applications while reinforcing essential concepts like route management and content injection.
                     </p>
                 </div>

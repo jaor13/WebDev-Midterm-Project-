@@ -137,7 +137,7 @@
                   <div class="portfolio-wrap">
                     <img src="{{ asset('asset/images/lb1.svg') }}" class="img-fluid" alt="">
                     <div class="portfolio-links">
-                      <a href="#" title="View Documentation"><i class="fas fa-link"></i></a>
+                      <a href="{{route('narrative4')}}" title="View Documentation"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
